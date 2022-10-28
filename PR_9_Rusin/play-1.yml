@@ -1,9 +1,0 @@
----
-- name: play1
-  hosts: all
-  become: no
-
-  tasks:
-
-  - name: ping
-    ping:
